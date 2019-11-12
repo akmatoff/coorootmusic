@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %} 
+    <div id="container">
+            <div class="navigator">
+                    <div class="navigator-inner">
+                        <a href="#container">HOME</a>
+                        <a href="#releases-container">RELEASES</a>
+                        <a href="#about-container">ABOUT</a>
+                        <a href="#contact-container">CONTACT</a>
+                    </div>
+                </div>
+        
+            <div class="cooroot-logo"></div>
+        </div>
+
+    <div id="releases-container">
+    </div>
+
+    <div id="about-container"></div>
+
+    <div id="contact-container">
+        <div class="contact-form">
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your name...">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name...">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
+
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
