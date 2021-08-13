@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaFacebook,
   FaVk,
+  FaYoutube,
 } from "react-icons/fa";
 import "./SocialLinks.css";
 
@@ -18,6 +19,9 @@ export default function SocialLinks() {
       </a>
       <a href="https://open.spotify.com/artist/3S8va2acp3V46So5f99qqz">
         <FaSpotify className="social-icon" />
+      </a>
+      <a href="https://www.youtube.com/channel/UCdWz2MxGVKgShWl8M3MFxKw">
+        <FaYoutube className="social-icon" />
       </a>
       <a href="https://facebook.com/coorootmusic">
         <FaFacebook className="social-icon" />

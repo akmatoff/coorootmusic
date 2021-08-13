@@ -2,7 +2,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <section className="container flex-column centered">
+    <section className="container flex-column centered" id="about">
       <div className="about-container">
         <h1>ABOUT</h1>
         <p>
@@ -12,7 +12,7 @@ export default function About() {
         </p>
         <p>
           I've been making music since February 2016 and been producing mostly
-          dubstep. But these days you might hear some other genres too.
+          dubstep. But these days you might hear some more of the other genres.
         </p>
         <p>
           Besides making electronic music I also play guitar, do graphic design

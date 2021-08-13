@@ -1,6 +1,6 @@
 .about-container {
   width: clamp(400px, 50vw, 800px);
-  padding: 10px;
+  padding: 15px;
   color: var(--text-color);
 }
 
@@ -10,7 +10,7 @@
 }
 
 .about-container > p {
-  font-size: 25px;
+  font-size: clamp(18px, 2vw, 25px);
   font-weight: 400;
   line-height: 35px;
   letter-spacing: 0.8px;

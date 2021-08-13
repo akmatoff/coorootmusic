@@ -4,11 +4,15 @@
   --primary-color: #e6e6e6;
   --secondary-color: #2e2e2e;
   --text-color: #4a4a4a;
-  --text-color-light: rgb(65, 65, 65);
+  --text-color-light: rgb(83, 83, 83);
 }
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +27,7 @@ h1, h2, h3 {
 }
 
 a {
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -45,6 +50,7 @@ a {
   width: 100%;
   min-height: 100vh;
   background-color: var(--primary-color);
+  padding: auto 0;
 }
 
 .container {
