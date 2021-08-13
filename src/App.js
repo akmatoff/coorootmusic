@@ -1,4 +1,5 @@
 import SocialLinks from "./components/SocialLinks";
+import About from "./components/About";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
           <div className="logo" />
           <SocialLinks />
         </section>
+        <About />
       </main>
     </div>
   );

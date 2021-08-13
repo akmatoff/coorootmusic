@@ -1,0 +1,18 @@
+.about-container {
+  width: clamp(400px, 50vw, 800px);
+  padding: 10px;
+  color: var(--text-color);
+}
+
+.about-container > h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about-container > p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.8px;
+  text-align: justify;
+}
