@@ -5,23 +5,27 @@
 .releases-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  place-items: center;
+  place-content: center;
   gap: 30px;
   width: clamp(400px, 50vw, 800px);
-  min-height: 300px;
+  min-height: 1000px;
 }
 
 .release {
   display: grid;
   place-items: center;
   place-content: center;
-  background-color: var(--highlight-color);
+  /* background-color: var(--highlight-color); */
   width: 240px;
   height: 320px;
-  padding: 15px;
   border-radius: 5px;
-  box-shadow: 5px 8px 20px rgba(30,30,30,0.15);
+  box-shadow: 5px 5px 32px rgba(30,30,30,0.08);
   cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.release:hover {
+  filter: brightness(0.8);
 }
 
 .release-text {
@@ -43,7 +47,7 @@
 .cover {
   width: 200px;
   height: 200px;
-  /* box-shadow: 5px 7px 10px rgba(30,30,30,0.15); */
+  /* box-shadow: 5px 7px 20px rgba(30,30,30,0.15); */
   border-radius: 3px;
 }
 

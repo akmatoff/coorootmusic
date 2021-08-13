@@ -7,17 +7,19 @@ export default function Releases() {
       <div className="releases-container">
         {releasesData.map((release) => {
           return (
-            <div key={release.id} className="release">
-              <img className="cover" src={release.cover} alt="cover"></img>
-              <div className="flex-column centered release-info">
-                <p id="artist" className="release-text">
-                  {release.artist}
-                </p>
-                <p id="title" className="release-text">
-                  {release.title}
-                </p>
+            <a href={release.link}>
+              <div key={release.id} className="release">
+                <img className="cover" src={release.cover} alt="cover"></img>
+                <div className="flex-column centered release-info">
+                  <p id="artist" className="release-text">
+                    {release.artist}
+                  </p>
+                  <p id="title" className="release-text">
+                    {release.title}
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
           );
         })}
       </div>
