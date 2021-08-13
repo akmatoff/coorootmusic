@@ -19,7 +19,6 @@
   width: 240px;
   height: 320px;
   border-radius: 5px;
-  box-shadow: 5px 5px 32px rgba(30,30,30,0.08);
   cursor: pointer;
   transition: 0.4s ease;
 }
