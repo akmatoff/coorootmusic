@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import SocialLinks from "./components/SocialLinks";
+import Releases from "./components/Releases";
 import About from "./components/About";
 import "./App.css";
 
@@ -12,6 +13,7 @@ function App() {
           <div className="logo" />
           <SocialLinks />
         </section>
+        <Releases />
         <About />
       </main>
     </div>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "artist": "Cooroot",
+    "title": "Wherever You Go",
+    "genre": "Trap",
+    "cover": "https://angartwork.akamaized.net/webp/?id=144514383&size=296",
+    "release_date": "28.07.2021"
+  },
+  {
+    "id": 2,
+    "artist": "Cooroot",
+    "title": "Homewalk",
+    "genre": "Future Garage",
+    "cover": "https://geo-media.beatport.com/image_size/1400x1400/9f30f265-d466-41f1-bce8-3a38c9ab2b9a.jpg",
+    "release_date": "02.04.2021"
+  },
+  {
+    "id": 3,
+    "artist": "Cooroot & Alpsol",
+    "title": "Autumn's Whisper",
+    "genre": "Lo-Fi",
+    "cover": "https://i1.sndcdn.com/artworks-0F2g2T3kfxAFNNfM-x8Livw-t500x500.jpg",
+    "release_date": "19.09.2020"
+  },
+  {
+    "id": 4,
+    "artist": "Bakr",
+    "title": "Ойлорумда (Cooroot Remix)",
+    "genre": "Electronic",
+    "cover": "https://i1.sndcdn.com/artworks-xET1G5xdlpBJt9rT-x2xJKg-t500x500.jpg",
+    "release_date": "19.03.2021"
+  },
+  {
+    "id": 5,
+    "artist": "Ирина Кайратовна",
+    "title": "5000 (Cooroot Remix)",
+    "genre": "Trap",
+    "cover": "https://i1.sndcdn.com/artworks-zM7RdcJ8Wifd58su-4abikQ-t500x500.jpg",
+    "release_date": "5.08.2021"
+  },
+  {
+    "id": 6,
+    "artist": "Alan Walker & Imanbek",
+    "title": "Sweet Dreams (Cooroot Remix)",
+    "genre": "Trap",
+    "cover": "https://i1.sndcdn.com/artworks-mxUH9mcvaPh9au8T-yeDLTw-t500x500.jpg",
+    "release_date": "15.07.2021"
+  }
+]
