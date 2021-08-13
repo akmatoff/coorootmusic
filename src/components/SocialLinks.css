@@ -1,0 +1,17 @@
+.social-links {
+  margin-top: 50px;
+  width: clamp(350px, 50vw, 500px);
+  height: 100px;
+  justify-content: space-around;
+}
+
+.social-icon {
+  color: var(--text-color);
+  font-size: clamp(40px, 5vw, 50px);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.social-icon:hover {
+  color: var(--secondary-color);
+}
