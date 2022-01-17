@@ -15,9 +15,13 @@ export default function About() {
           dubstep. But these days you might hear some more of the other genres.
         </p>
         <p>
+          I've got interested in making music as a young schoolboy, now as a
+          young adult I keep making music that you hopefully enjoy =).
+        </p>
+        <p>
           Besides making electronic music I also play guitar, do graphic design
           and coding. Mostly, I make track covers and edit music videos myself.
-          This website is also written by me.
+          This website is also made by me.
         </p>
       </div>
     </section>

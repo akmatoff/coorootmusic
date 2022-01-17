@@ -4,7 +4,7 @@ import releasesData from "../assets/releases.json";
 export default function Releases() {
   return (
     <section className="container flex-column centered" id="releases">
-      <div className="releases-container">
+      <div className="releases-container flex-row centered">
         {releasesData.map((release) => {
           return (
             <a href={release.link}>
